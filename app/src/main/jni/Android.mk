@@ -27,7 +27,7 @@ INC_DIRS = -I$(LOCAL_PATH)/jni
 LOCAL_CPPFLAGS += $(INC_DIRS)
 
 LOCAL_SRC_FILES	:= \
-	jni/native-lib2.cpp	\
+	jni_lib.cpp	\
 
 
 LOCAL_SHARED_LIBRARIES += libandroid_runtime
